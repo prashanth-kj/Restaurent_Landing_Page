@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurent Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Qwigley&family=Source+Sans+3:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <div>
+
+
+    <!-- header start -->
+      <header>
+             <nav class="navbar navbar-expand-lg   bg-light" style="height:18vh;">
+                    <div class="container d-flex">
+                      <p class="navbar-brand navbar-text  text-warning  mt-4 fw-lighter  " style="font-family: Qwigley; font-size: 80px; " >Hot Meals</p>
+                     
+                    
+                      <!-- <button class="navbar-toggler" type="button"  data-toggle="collapse"  data-target=".myNavbar"  >
+                         <span class="navbar-toggler-icon"></span>
+                      </button> -->
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".myNavbar" ">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+   
+                      <div class="collapse navbar-collapse  myNavbar" >
+                         <ul class="navbar-nav   ms-auto  d-flex align-items-center flex-wrap">
+                            <li class="nav-item">
+                               <h6 class="navbar-text fw-bold mt-3" > Deliver to:</h6>
+                            </li>
+                            <li class="nav-item">
+                             <img src="images/map-marker-alt.svg" alt="map-marker-alt"  width="14px" height="24px"  class="mt-2 ms-2 me-1" >
+                            </li>
+                            <li class="nav-item">
+                               <p class="navbar-text mt-4  me-1 " style="font-family:sans-serif;">Current Location</p>
+                            </li>
+                            <li class="nav-item">
+                             <p class="navbar-text  mt-4  fw-bold">Ashok Nagar, Chennai-600013</p>
+                          </li>
+                         </ul>   
+                     </div>
+   
+                       <div class="collapse navbar-collapse ">
+                         <ul class="navbar-nav ms-auto d-flex align-items-center flex-wrap ">
+                            <li class="nav-item">
+                                <img src="images/Search icon.svg" alt="Search Icon" width="18px" height="18px" class="me-2 mt-1 img-fluid" > 
+                            </li>
+                            <li class="nav-item">
+                                <p class="navbar-text mt-4 fw-bolder">Search Food</p>
+                            </li>
+                            <li class="nav-item">
+                                <button class=" btn btn-outline-warning ms-4  mt-2 bg-transparent fw-bold " > <img src="images/user login icon.svg" alt="user Icon" width="16px" height="18px" class="me-2 img-fluid">Login</button>
+                            </li>
+                         </ul>
+   
+                       </div>
+                   
+                      </div>
+             </nav>    
+
+
+                 <div class="row   h-100 "  style="background-color: #FDBE35;">
+                     <div class="col-6  col-xs mx-auto  mt-5 mb-5"> 
+                          <p class=" text-white"  style="font-family:Qwigley; font-size: 88px;">Look at your fav Meals</p>
+                          <p    style="font-family: sans-serif; font-size: 20px; color: #504F4F; margin-top: -30px;">Within a few clicks, find meals that are accessible near you</p>
+                          <div class="card col-6 w-100 h-auto">
+                              <div class="card-body col-8">
+                                    <img src="images/delivery icon.svg" alt="Delivery icon"  class="img-fluid">
+                                    <img src="images/pick up icon.svg" alt="picup Icon" class="img-fluid">
+                              </div>
+                                
+                          </div>
+                          <div class="card col-4 w-100 h-auto  mb-4">
+                              <div class="card-body">
+                                  <img src="images/Text Field icon.svg" alt="Textfleld icon" class="img-fluid"  width="65%" height="49px">
+                                  <img src="images/Find Food button.svg" alt="Findfood Icon" class="img-fluid"   width="25%" height="10px">
+                            
+                              </div>
+                          </div>
+                     </div>
+                     <div class="col-4  ml-3 " >
+                             <img src="images/leaf image.png" alt="Leaf icon"  width="90%" height="h-auto" class="mt-5 img-fluid">
+                     </div>
+                    
+                 </div>
+
+      </header>
+        <!-- end of header -->
+
+        <!-- card-section1 -->
+           <section>
+               <div class="container  d-flex mt-5 "> 
+                <div class="row ">
+                  <div class="col">
+                    <div class="card  w-100 ms-4 mb-4 border-bottom-0 border-top-0 border-start-0 border-end-0"  >
+                      <img src="images/vada Image.png" class="card-img-top" alt="vada Image">
+                      <div class="card-body">
+                        <h6 class="card-title fw-bold card-header-pills" style="font-size: 18px;">Vada</h6>
+                        <button class="badge border-bottom-0 border-start-0 border-top-0 border-end-0 card-header-pills" style="color: #F17228; background-color:antiquewhite; ">30 min Delivery</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card w-100 ms-4 mb-4 border-bottom-0 border-top-0 border-start-0 border-end-0">
+                      <img src="images/Idly Image.png" class="card-img-top" alt="Idly image">
+                      <div class="card-body">
+                        <h6 class="card-title fw-bold card-header-pills" style="font-size: 18px;">Idly</h6>
+                        <button class="badge border-bottom-0 border-start-0 border-top-0 border-end-0 card-header-pills" style="color: #F17228; background-color:antiquewhite; ">30 min Delivery</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card w-100 ms-4 mb-4 border-bottom-0 border-top-0 border-start-0 border-end-0">
+                      <img src="images/Parotta Image.png" class="card-img-top" alt="Parotta Image">
+                      <div class="card-body">
+                        <h6 class="card-title fw-bold card-header-pills" style="font-size: 18px;">parotta</h6>
+                        <button class="badge border-bottom-0 border-start-0 border-top-0 border-end-0 card-header-pills" style="color: #F17228; background-color:antiquewhite; ">30 min Delivery</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card w-100 ms-4 mb-4 border-bottom-0 border-top-0 border-start-0 border-end-0">
+                      <img src="images/Kichadi Image.png" class="card-img-top" alt="Kichadi Image">
+                      <div class="card-body">
+                        <h6 class="card-title fw-bold card-header-pills" style="font-size: 18px;">Kichadi</h6>
+                        <button class="badge border-bottom-0 border-start-0 border-top-0 border-end-0 card card-header-pills" style="color: #F17228; background-color:antiquewhite; ">30 min Delivery</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+               </div>
+           </section>
+
+               <section>
+                       <div class="container mb-5 d-flex flex-wrap ">
+                        <div class="card mb-5 mt-5  border-bottom-0 border-start-0 border-end-0 border-top-0" >
+                          <div class="row g-0 ">
+                            <div class="col mt-3 mb-3">
+                                  <div class="card-title text-center ">
+                                      <h4 class=" fw-bolder" style="color: #F17228;">How does it work</h4> 
+                                  </div>
+                                   
+                            </div>
+                            <div class="row ms-4 mb-1">
+                                <div class="col  d-flex ">
+                                  <div class="card-body shadow   d-flex flex-wrap flex-row ">
+                                        <div class="col  ms-5 d-flex flex-wrap ">
+                                                <div class=" col Discount d-flex justify-content-between ">
+                                                  <img src="images/Discount Icon.svg" alt="Discount Icon" class="ms-5 img-fluid align-top">
+                                                  <h5 class="w-50 lh-base fw-bold mt-4 me-5 ms-1">Daily Discounts</h5>
+                                                  <img src="images/HR icon.svg" alt="HR Icon" class="me-5 img-fluid align-top">
+                                                </div>
+                                                <div class=" col Tracking d-flex justify-content-between">
+                                                  <img src="images/Tracing Icon.svg" alt="Tracing Icon" class="ms-4 img-fluid align-top">
+                                                  <h5 class="w-50 lh-base fw-bold  mt-4   me-5 ms-2">Live <br>Tracing</h5>
+                                                  <img src="images/HR icon.svg" alt="HR Icon" class="me-4 align-top">
+                                                </div>
+                                                <div class=" col Quick Delivery d-flex justify-content-between" >
+                                                  <img src="images/QuickDeliveryIcon.svg" alt="Quick Delivery Icon" class="me-4 img-fluid align-top">
+                                                  <h5 class="w-50  lh-base fw-bold  mt-4 me-5 " >Quick Delivery</h5>
+                                                </div>
+                                        </div>
+                                        
+                                    
+                                  </div>
+                                </div>
+                                
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+               </section>
+
+
+                 <section>
+                       
+                        <div  class="mb-5"  style="background: #F6F5EE; ">
+                              <div class="container d-flex flex-wrap">
+                                <div class="row ">
+                                  <div class="row mt-5 mb-5 ms-5" > 
+                                         <div class="col">
+                                               <h5 class="fw-bolder" style="color: #212121; ">Search by Food</h5>
+                                         </div>
+                                  </div>
+                                  <div class="row  ms-1" >
+                                        <div class="col ms-5 mb-5 ">
+                                          <div class="card-group w-100  " >
+                                            <div class="card me-4  border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                              <img src="images/Dosa Photo.png" class="card-img-top" alt="Dosa Photo">
+                                              <div class="card-body">
+                                                <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Dosa</h6>
+                                              </div>
+                                            </div>
+                                            
+                                              <div class="card me-4 border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                                <img src="images/Appam Photo.png" class="card-img-top" alt="Appam Photo">
+                                                <div class="card-body">
+                                                  <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Aapppm</h6>
+                                                </div>
+                                              </div>
+                                              
+                                                <div class="card me-4 border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                                  <img src="images/puttu Photo.png" class="card-img-top" alt="puttu Photo">
+                                                  <div class="card-body">
+                                                    <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Puttu</h6>
+                                                  </div>
+                                                </div>
+                                                
+                                                  <div class="card me-4 border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                                    <img src="images/Idiyappam Photo.png" class="card-img-top" alt="Idiyappam Photo">
+                                                    <div class="card-body">
+                                                      <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Idiyappam</h6>
+                                                    </div>
+                                                  </div>
+                                            <div class="card me-4 border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                              <img src="images/pongal Photo.png" class="card-img-top" alt="Pongal ohoto">
+                                              <div class="card-body">
+                                                <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Pongal</h6> 
+                                              </div>
+                                            </div>
+                                            <div class="card me-4 border-bottom-0 border-top-0 border-start-0 border-end-0" style="background: #F6F5EE;">
+                                              <img src="images/Vegrice Photo.png" class="card-img-top" alt="Vegrice photo">
+                                              <div class="card-body">
+                                                <h6 class="card-title fw-bold text-center" style="font-size: 18px;">Veg Rice</h6>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                   </div>
+                                        
+                           </div>
+
+                              </div>
+                        </div>
+                      
+                 </section>
+
+
+                  <section>
+                           <div class="container mb-5 me-5 ">
+                            <div class="row mb-5  ">
+                              
+                              <div class="col  mt-4 d-flex flex-wrap ">
+                               <div class="col mb-5 mt-3 ">
+                                 <div class="col mt-5 ">
+                                    <h2 class="fw-bold" style="color:#353535; ">Best deals <span class="h2 text-warning fw-bold">Crispy  <br/>Diffen</span></h2>
+                               
+                                    <p  class="mb-5"  style="color: #616161b0; font-size: 18px;">Enjoy the large size of Dosa. Complete <br/>
+                                      perfect slice of Dosa.</p>
+                                     <button class="fw-bold text-white btn btn-warning btnorder text-uppercase text-center  " > Proceed to order <img src="images/CHEVRON-RIGHT.svg" alt="CHEVRON-RIGHT Icon" width="10px" height="16px" class="img-fluid ms-1 position-relative align-self-center"></button>
+                                 </div> 
+                               </div>
+                               <div class="col-8 mt-1 mb-4 ms-3">
+                                        <div class="col">
+                                            <img src="images/Diffen Image.png" alt="Diffen Image"  style="width: 95%; height: 100%;">
+                                        </div>
+                               </div>
+
+                              </div>
+                       
+                      
+                   </div>
+
+                           </div>
+                  </section>
+
+                   
+                 <section>
+                          
+                            <div class="mb-5">
+                              <div class="row">
+                                <div class="col mb-4 me-4">
+                                      <h4 class="text-center fw-bold" style="color: #212121; ">Popular items</h4>
+                                </div>
+                             </div>
+
+                                <div class="container mb-5">
+                                  <div class="row  card-group row-cols-1 row-cols-md-5 g-4">
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Murukku Image.png" class="card-img-top img-fluid" alt="Murukku">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px">Murukku</h5>
+                                           <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Paniyaram Image.png" class="card-img-top img-fluid" alt="Paniyaram">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px">Paniyaram</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Seeval Murukku image.png" class="card-img-top img-fluid" alt="Seeval Murukku">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px">Seeval Murukku</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Mixture Image.png" class="card-img-top img-fluid" alt="Mixture">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Mixture</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Veg Soup Image.png" class="card-img-top img-fluid" alt="Veg Soup">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Veg Soup</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Gulab Jamun Image.png" class="card-img-top img-fluid" alt="Gulab Jamun">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Gulab Jamun</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Porivellangai Urundai Image.png" class="card-img-top img-fluid" alt="Porivellangai Urundai">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Porivellangai Urundai</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Jangri Image.png" class="card-img-top img-fluid" alt="Jangri">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Jangri</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Lattu Image.png" class="card-img-top img-fluid" alt="Lattu">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Lattu</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card border-bottom-0 border-top-0 border-start-0 border-end-0">
+                                        <img src="images/Halwa Image.png" class="card-img-top img-fluid" alt="Halwa">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-bold text-center" style="font-size:16px;">Halwa</h5>
+                                          <button class="card-text text-white btn btnpopular img-fluid">Order Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+       
+                 </section> 
+
+
+
+                  <footer class="bg-black mt-5 ">
+                           <div class="container ">
+                                <div class="row">
+                                        <div class="col  mt-4"> 
+                                                <hr class="text-warning">
+                                        </div>
+                                </div>
+                                <div class="row mt-4">
+                                      <div class="col  d-flex  flex-wrap ">
+                                        <div class="col  d-flex  flex-wrap">
+                                          <div class="col">
+                                                <h6 class="text-white fw-bolder">Company</h6>
+                                                <br>
+                                                <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">About us</p>
+                                                <p class="lh-1" style="font-size: 18px;color: #F5F5F5; ">Team</p>
+                                                <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">Careers</p>
+                                                <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">Blog</p>
+                                          </div>   
+                                          <div class="col">
+                                               <h6 class="text-white fw-bold">Contact</h6>
+                                               <br>
+                                               <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">Help & Support</p>
+                                               <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">Partner with us </p>
+                                               <p class="lh-1" style="font-size: 18px; color: #F5F5F5;">Ride with us</p>
+                                               
+                                         </div> 
+                                         <div class="col">
+                                               <h6 class="text-white fw-bold">Legal</h6>
+                                               <br>
+                                               <p class="lh-1" style="font-size: 17px; color: #F5F5F5;">Terms & Conditions</p>
+                                               <p class="lh-1" style="font-size: 17px; color: #F5F5F5;">Refund & Cancellation</p>
+                                               <p class="lh-1" style="font-size: 17px; color: #F5F5F5;">Privacy Policy</p>
+                                               <p class="lh-1" style="font-size: 17px; color: #F5F5F5; ">Cookie Policy</p>
+                                         </div>     
+                                         
+                                 </div>
+                                 <div class="col ms-5 text-start ">
+                                        <div class="ms-5">
+                                            <p class="ms-5 text-white-50 fw-bold text-uppercase  mb-4 " style="font-size: medium;">Follow Us</p>
+                                            <img src="images/social Icons.svg" alt="Social icons" class="ms-5 mb-4">
+                                            <p class="mt-1 ms-5 mb-4 " style="color: #BBB;">Receive exclusive offers in your mailbox</p>
+                                             <div class="row ">
+                                                  <div class="col d-flex">
+                                                    <div class="col ms-5 mt-3 "> 
+                                                      <img src="images/Text Field email Icon.svg" alt=" TextField Email icon" class="img-fluid">
+                                                     
+                                                    </div>  
+                                                    <div class="col  me-2"> 
+                                                      <img src="images/Subscribe button.svg" alt=" Subscribe Button" class="img-fluid w-75 h-75 mt-1 "  style="margin-left: -20px;">
+                                                    </div> 
+                                                  </div>
+                                             </div>
+                                        </div>
+                                 </div>
+                                      </div>
+                                </div>
+                                
+                                <div class="row ">
+                                  <div class="col"> 
+                                          <hr class="text-warning">
+                                          <div class="d-flex justify-content-between mb-3">
+                                            <span><p style="color: #F5F5F5; font-size: 15px;">All rights Reserved <img src="images/Copyright Symbol.svg" alt="Copyrightsymbol icon" class="ms-1"></p> </span>
+                                            <div class="float-end  d-flex"> <img src="images/yellowHeart Vector.svg" alt="YellowHeart Vector" class="me-2 mb-3"><p class="fw-bold" style="font-size: 15px; color:  #F5F5F5; ">Prasanth_kj</p> </div>
+                                          </div>
+                                          
+                                        </div>
+                          </div>
+
+
+                           </div>
+                  </footer>
+
+
+
+
+
+
+    </div>
+  </body>
+</html>
